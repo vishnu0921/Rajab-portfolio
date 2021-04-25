@@ -752,6 +752,7 @@ footer {
     font-size: 17px;
     line-height: 53px;
     color:#212121;
+    text-decoration: none;
 }
 /* conclusion starts */
 .conclusion_sec .overview_desc {
