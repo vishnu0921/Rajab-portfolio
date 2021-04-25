@@ -16,20 +16,20 @@ $("document").ready(function(){
 	//menu icons changes
 	if($(window).width() < 767) {
 		//$('.menu_open_img img').attr("src","images/hamburger.png");	
-		$('.close_img img').attr("src","images/mob_close.png");	
+		//$('.close_img img').attr("src","images/mob_close.png");	
 	}else if ($(window).width() >= 768) {
 		//$('.menu_open_img img').attr("src","images/open.svg");	
-		$('.close_img img').attr("src","images/close.svg");	                      
+		//$('.close_img img').attr("src","images/close.svg");	                      
     }  
 		
 });
 $(window).resize(function(e){
 	if($(window).width() < 767) {
 		//$('.menu_open_img img').attr("src","images/hamburger.png");	
-		$('.close_img img').attr("src","images/mob_close.png");			
+		//$('.close_img img').attr("src","images/mob_close.png");			
 	}else if ($(window).width() >= 768) {
 		//$('.menu_open_img img').attr("src","images/open.svg");	
-		$('.close_img img').attr("src","images/close.svg");		
+		//$('.close_img img').attr("src","images/close.svg");		
     }         
 });
 $(document).scroll(function () {
