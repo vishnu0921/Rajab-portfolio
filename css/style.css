@@ -188,6 +188,7 @@ header.menu_lite a, header.menu_lite a:hover{
 }
 .menu_dark h1 a:focus {
 	color:#fff !important;
+	text-decoration:none;
 }
 .menu_lite .menu_wrap ul li a {
 	color: #212121;
