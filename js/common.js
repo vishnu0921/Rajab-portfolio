@@ -7,7 +7,7 @@ $("document").ready(function(){
 		$("body").css("overflow-y","hidden");
 	});
 
-	$('.close_img').click(function(){
+	$('.close_img, .closemenu').click(function(){
 		$('.menu_wrapper').css({'right': '-100%'});
 		$('.overlay').css('display','none');
 		$("body").css("overflow-y","scroll");
