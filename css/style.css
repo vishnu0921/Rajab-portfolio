@@ -742,10 +742,16 @@ footer {
     padding: 60px 0 120px;
     margin: 50px;
 }
-.nxt_proj_abt p {
+.nxt_proj_abt p{
     margin: 0;
     font-size: 17px;
     line-height: 53px;
+}
+.nxt_proj_abt a, .nxt_proj_abt a:focus, .nxt_proj_abt a:hover {
+    margin: 0;
+    font-size: 17px;
+    line-height: 53px;
+    color:#212121;
 }
 /* conclusion starts */
 .conclusion_sec .overview_desc {
