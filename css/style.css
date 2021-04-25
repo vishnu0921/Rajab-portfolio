@@ -893,7 +893,7 @@ footer {
         font-size:34px;
         line-height:53px;
     }
-    .readmore_cta{
+    .readmore_cta, .readmore_cta:focus{
        font-size:21px;
         line-height:21px; 
     }
