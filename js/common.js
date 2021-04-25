@@ -4,7 +4,7 @@ $("document").ready(function(){
 	$('.menu_open_img, .resp_menu img').click(function(){
 		$('.menu_wrapper').css({'right': '0'});
 		$('.overlay').css({'display':'block','transition': '0.7s'});
-		$("body").css("overflow","overlay");
+		$("body").css("overflow-y","overlay");
 	});
 
 	$('.close_img').click(function(){
