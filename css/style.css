@@ -131,6 +131,7 @@ a.menulink:hover .menu_arrow {
 .email_identy p {
     font-size: 21px;
     line-height: 24px;
+    margin: 0;
 }
 .email_identy p span{
 	color:#9E9E9E;
