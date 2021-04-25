@@ -70,7 +70,7 @@ section.menu_wrapper {
 	transition: 0.7s;
 }
 .menu_inner {
-    padding: 0 50px 50px 72px;
+    padding: 0 61px 50px 61px;
 }
 .menu_inner_items {
     display: flex;
