@@ -1083,7 +1083,7 @@ footer {
 		right: 32px;
 	} 	
 	.email_identy {
-		position: static;
+		position: fixed;
 		padding: 33px 25px 33px 33px;
 	}
 	/* .resp_menu img {
