@@ -4,13 +4,13 @@ $("document").ready(function(){
 	$('.menu_open_img, .resp_menu img').click(function(){
 		$('.menu_wrapper').css({'right': '0'});
 		$('.overlay').css({'display':'block','transition': '0.7s'});
-		//$("body").css("overflow","hidden");
+		$("body").css("overflow","overlay");
 	});
 
 	$('.close_img').click(function(){
 		$('.menu_wrapper').css({'right': '-100%'});
 		$('.overlay').css('display','none');
-		//$("body").css("overflow-y","scroll");
+		$("body").css("overflow-y","scroll");
 		
 	});
 	//menu icons changes
