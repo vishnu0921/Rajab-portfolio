@@ -1140,6 +1140,9 @@ footer {
     .exec_cntnt p{
         font-size: 17px;
     }
+    .con_space .head_wrap{
+        padding-bottom:64px;
+    }
 }
 @media (max-width: 568px){
     .main_drtsec{
