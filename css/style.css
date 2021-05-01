@@ -1094,6 +1094,10 @@ footer {
 		font-size: 42px;
 		line-height: 53px;
 	}
+    .nxt_proj_abt h1 a, .nxt_proj_abt h1 a:focus, .nxt_proj_abt h1 a:hover{
+        font-size: 42px;
+        line-height: 53px;
+    }
 	/*.main_drtsec ul li h4{
 		padding-top: 5px;
 	}*/
