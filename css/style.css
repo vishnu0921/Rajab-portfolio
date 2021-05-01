@@ -65,7 +65,7 @@ section.menu_wrapper {
     z-index: 99;
     top: 0;
     bottom: 0;
-    padding: 90px 0px 0;
+    padding: 64px 0px 0;
     overflow-x: hidden;
 	transition: 0.7s;
 }
