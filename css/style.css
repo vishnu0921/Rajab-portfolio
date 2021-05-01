@@ -1188,6 +1188,9 @@ footer {
         font-size: 34px;
         line-height: 53px;
     }
+    section.menu_wrapper{
+        padding:24px 0px 0;
+    }
 }
 @media (max-width: 568px){
     .main_drtsec{
