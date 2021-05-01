@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="hamburger" transform="translate(17812 20269)">
+    <rect id="Rectangle_5708" data-name="Rectangle 5708" width="24" height="24" transform="translate(-17812 -20269)" fill="none"/>
+    <g id="Group_53883" data-name="Group 53883" transform="translate(-18088 -20297)">
+      <g id="back" transform="translate(264.164 16)">
+        <g id="menu_1_" data-name="menu (1)" transform="translate(11.836 9)">
+          <line id="Line_1323" data-name="Line 1323" x2="18" transform="translate(3 12)" fill="none" stroke="#616161" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <line id="Line_1325" data-name="Line 1325" x2="18" transform="translate(3 18)" fill="none" stroke="#616161" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

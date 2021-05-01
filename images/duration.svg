@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="duration" transform="translate(13139 17887)">
+    <rect id="Rectangle_5720" data-name="Rectangle 5720" width="18" height="18" transform="translate(-13139 -17887)" fill="none"/>
+    <g id="duration-2" data-name="duration" transform="translate(-13140 -17888)">
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="8" cy="8" r="8" transform="translate(2 2)" fill="none" stroke="#606060" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_75" data-name="Path 75" d="M12,6v4.8l3.2,1.6" transform="translate(-2 -0.8)" fill="none" stroke="#606060" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

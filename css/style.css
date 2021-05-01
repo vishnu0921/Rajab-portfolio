@@ -214,7 +214,7 @@ header.menu_lite a, header.menu_lite a:hover{
 .name_wrap h3 {
     margin: 10px 0;
     font-size: 21px;
-    line-height: 25px;
+    line-height: 34px;
 }
 .desc_wrap h2 {
     font-size: 42px;
@@ -235,7 +235,7 @@ header.menu_lite a, header.menu_lite a:hover{
 .project_type a {
     text-decoration:none;
     outline:0;
-    color:#212121;
+    color:#666666;
 }
 .head_wrap p {
     font-size: 17px;
@@ -270,9 +270,10 @@ header.menu_lite a, header.menu_lite a:hover{
     font-family: Productsans-Bold;
 }
 .project_type {
-    font-size: 27px;
+    font-size: 17px;
     line-height: 34px;
     margin: 0;
+    color: #666666;
 }
 
 .project_platform {
@@ -287,11 +288,14 @@ header.menu_lite a, header.menu_lite a:hover{
 	margin-bottom: 32px;
 }
 .readmore_cta, .readmore_cta:focus, .readmore_cta:hover {
-    font-size: 17px;
-    line-height: 17px;
+    font-size: 21px;
+    line-height: 21px;
 	text-decoration:underline;
 	color:#212121;
 	outline:0;
+}
+.readmore_cta img{
+    padding-left: 10px;
 }
 .project_item {
     display: flex;
@@ -305,7 +309,25 @@ header.menu_lite a, header.menu_lite a:hover{
 .project_img_sec {
     width: 50%;
     text-align: center;
+    /*overflow: hidden;*/
 }
+.project_img_sec img {
+    width: 80%;
+}
+/*.img_zoom{
+overflow: hidden;
+}
+.img_zoom img{
+    transition: transform .5s ease;
+}
+.img_zoom img:hover{
+    transform: scale(1.1) rotate(2deg) ;
+}*/
+
+/*.aln_midl{
+    width: 90%;
+    margin: 0 auto;
+}*/
 .project_even{
 	text-align: left;
 }
@@ -325,7 +347,7 @@ header.menu_lite a, header.menu_lite a:hover{
 .swipe_wrap_sec:before {
     content: '';
     position: absolute;
-    background: url('../images/commas.png') no-repeat;
+    background: url('../images/commas.svg') no-repeat;
     width: 56px;
     height: 56px;
     left: -12%;
@@ -406,7 +428,7 @@ header.menu_lite a, header.menu_lite a:hover{
     line-height: 24px;
 }
 .swiper-button-next:after{
-	 background: url(../images/right.png) center no-repeat;
+	 background: url(../images/right.svg) center no-repeat;
     background-size: cover;
     content: '';
     position: absolute;
@@ -414,7 +436,7 @@ header.menu_lite a, header.menu_lite a:hover{
     width: 45px;
 }
 .swiper-button-prev:after {    
-    background: url(../images/left.png) center no-repeat;
+    background: url(../images/left.svg) center no-repeat;
     background-size: cover;
     content: '';
     position: absolute;
@@ -622,8 +644,8 @@ footer {
     line-height: 34px;
 }
 .users_inner  .overview_desc p {
-	font-size: 27px;
-    line-height: 42px;
+	/*font-size: 27px;
+    line-height: 42px;*/
 }
 .proj_ref_two {
     width: 95%;
@@ -695,7 +717,7 @@ footer {
 .moreinfo_inner {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
     margin:  0 auto;
 }
 .moreinfocom {
@@ -703,17 +725,18 @@ footer {
 	text-align:center;
 }
 .moreinfocom img {
-    width: 90%;
+    width: 100%;
+    padding: 40px;
 }
 .moreinfo_two, .moreinfo_four {
    /*  padding-top: 50px; */
-    margin-top: 50px;
+    /*margin-top: 50px;*/
 }
 .moreinfo_three {
     margin-top: -240px;
 }
 .rg_moreinfo .moreinfo_three {
-    margin-top: 0px;
+    /*margin-top: 0px;*/
 }
 .passion_inner h1 {
     font-size: 66px;
@@ -755,6 +778,13 @@ footer {
     color:#212121;
     text-decoration: none;
 }
+.nxt_proj_abt h1 a, .nxt_proj_abt h1 a:focus, .nxt_proj_abt h1 a:hover {
+    margin: 0;
+    font-size: 83px;
+    line-height: 83px;
+    color: #212121;
+    text-decoration: none;
+}
 /* conclusion starts */
 .conclusion_sec .overview_desc {
     padding-top: 90px;
@@ -789,9 +819,9 @@ footer {
 	.project_img_sec img {
 		width: 90%;
 	}
-	.moreinfocom img {
+	/*.moreinfocom img {
 		width: 90%;
-	}
+	}*/
 	.project_item_desc_even {
 		/*width: 100%;
 		margin: 0 auto;*/
@@ -833,6 +863,9 @@ footer {
 	}
     .overview_desc p{
         width: 80%;
+    }
+    .moreinfo_inner {
+    width: 100%;
     }
 }
 @media (max-width: 991px){
@@ -898,8 +931,8 @@ footer {
         padding-top: 42px;
     }
     .desc_wrap h2{
-        font-size:34px;
-        line-height:53px;
+        font-size:27px;
+        line-height:42px;
     }
     .readmore_cta, .readmore_cta:focus{
        font-size:21px;
@@ -953,7 +986,7 @@ footer {
 	.project_item {
 		flex-flow: row wrap;
 		margin-top: 0;
-        padding-top:56px;
+        padding-top:64px;
 	}
 	.project_item_desc {
 		width: 100%;
@@ -1091,8 +1124,8 @@ footer {
 		padding-right: 8px;
 	} */
 	.projects_sampline h1 {
-		font-size: 34px;
-		line-height: 53px;
+		font-size: 27px;
+		line-height: 42px;
 	}
 	.social_item{
 		display:none;
@@ -1151,6 +1184,10 @@ footer {
     .con_space .head_wrap{
         padding-bottom:64px;
     }
+    .name_wrap h1{
+        font-size: 34px;
+        line-height: 53px;
+    }
 }
 @media (max-width: 568px){
     .main_drtsec{
@@ -1164,8 +1201,8 @@ footer {
 		line-height: 53px;
 	}
     .projects_sampline h2{
-        font-size: 34px;
-        line-height: 53px;
+        font-size: 27px;
+        line-height: 42px;
     }
 	.padd_lft_rgt {
 		padding-left: 16px !important;
