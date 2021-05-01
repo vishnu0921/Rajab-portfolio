@@ -223,7 +223,7 @@ header.menu_lite a, header.menu_lite a:hover{
 /* projects section start */
 .projects_section {
     background: #fff;
-	padding: 90px 0;
+	padding: 0 0 90px 0;
 }
 .projects_wrap {
     padding: 90px 0px;
@@ -993,7 +993,7 @@ footer {
 		padding-bottom: 24px;
 	}
 	.projects_section{
-		padding: 0px 0;
+		padding: 0;
 	}
 	.project_img_sec {
 		width: 100%;
